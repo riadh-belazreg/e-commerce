@@ -14,8 +14,8 @@ const Navbar = () => {
             <div className='left'>
                 <div className='language'>EN</div>
                 <div className='SearchContainer'>
-                    Input 
-                    Icon <BiSearchAlt2/>
+                    <input className='input' type='text'/> 
+                    <BiSearchAlt2/>
                 </div>
             </div>
             <div className='center'>Center</div>
